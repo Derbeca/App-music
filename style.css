@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+form {
+    width: 30%;
+    height: 100px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: beige;
+    padding-left: 5px;
+}
+::placeholder {
+    padding-left: 5px;
+}
+#bouton {
+    height: 40px;
+    width: 80px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+li {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+audio {
+    width: 200px;
+    margin-top: 10px;
+}
